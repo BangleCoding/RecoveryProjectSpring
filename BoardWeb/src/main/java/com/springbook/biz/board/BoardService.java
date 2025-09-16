@@ -8,7 +8,7 @@ public interface BoardService {
 	void insertBoard(BoardVO vo);
 	
 	//수정
-	void upadateBoard(BoardVO vo);
+	void updateBoard(BoardVO vo);
 	
 	//삭제
 	void deleteBoard(BoardVO vo);
