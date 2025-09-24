@@ -5,6 +5,12 @@ import java.util.Date;
 public class BoardVO {
 	
 	private int seq;
+	private String title;
+	private String writer;
+	private String content;
+	private Date regDate;
+	private int cnt;
+
 	@Override
 	public String toString() {
 		return "BoardVO [seq=" + seq + ", title=" + title + ", writer=" + writer + ", content=" + content + ", regDate="
@@ -46,10 +52,5 @@ public class BoardVO {
 	public void setCnt(int cnt) {
 		this.cnt = cnt;
 	}
-	private String title;
-	private String writer;
-	private String content;
-	private Date regDate;
-	private int cnt;
 
 }
